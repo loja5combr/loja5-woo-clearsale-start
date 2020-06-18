@@ -6,7 +6,7 @@
   Author: Loja5.com.br
   Author URI: http://www.loja5.com.br
   Copyright: © 2009-2020 Loja5.com.br.
-  License: Comercial
+  License: Free / GPL
 */
 
 if ( ! class_exists( ' WC_Loja5_Clearsale_Start' ) ) {
