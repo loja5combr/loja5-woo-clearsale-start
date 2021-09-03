@@ -57,7 +57,7 @@ class Loja5_ClearSale_Start_Admin {
             'TipoPagamento' => 14,
             'PedidoID' => urlencode($order_data['id']),
             'Data' => urlencode($order_data['date_created']->date('d/m/Y H:i')),
-            'Total' => urlencode(number_format($order_data['total'],2,',','.')),
+            'Total' => urlencode(number_format($order_data['total'],2,'.','')),
 			//dados cobranca
             'Cobranca_Nome' => urlencode($order_data['billing']['first_name'].' '.$order_data['billing']['last_name']),
             'Cobranca_Email' => urlencode($order_data['billing']['email']),
