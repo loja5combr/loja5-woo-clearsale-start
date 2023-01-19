@@ -1,7 +1,7 @@
 # Como instalar
 Integração Clearsale Start para Woocommerce (GPL)
 
-1 - Fazer download: https://github.com/loja5combr/loja5-woo-clearsale-start/archive/1.0.zip
+1 - Fazer download: https://github.com/loja5combr/loja5-woo-clearsale-start/releases/tag/1.2
 
 2 - Acessar Admin de seu Wordpress
 
