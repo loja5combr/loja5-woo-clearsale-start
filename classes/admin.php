@@ -54,9 +54,10 @@ class Loja5_ClearSale_Start_Admin {
 			//dados pedidos
           	'CodigoIntegracao' => trim($cod),
 			'IP' => urlencode(get_post_meta( $order_id, '_customer_ip_address', true )),
-            'TipoPagamento' => 14,
+            'TipoPagamento' => 1,
             'PedidoID' => urlencode($order_data['id']),
-            'Data' => urlencode($order_data['date_created']->date('d/m/Y H:i')),
+            'Data' => urlencode($order_data['date_created']->date('d/m/Y H:i:s')),
+	    //'Data' => urlencode($order_data['date_created']->date('Y-m-d H:i:s')),
             'Total' => urlencode(number_format($order_data['total'],2,'.','')),
 			//dados cobranca
             'Cobranca_Nome' => urlencode($order_data['billing']['first_name'].' '.$order_data['billing']['last_name']),
